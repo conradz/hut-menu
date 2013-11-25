@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "hut-build test",
-    "start": "hut-build serve"
+    "start": "hut-build serve",
+    "build": "hut-build build"
   },
   "repository": {
     "type": "git",
