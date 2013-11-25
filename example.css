@@ -1,0 +1,241 @@
+/*
+ * Default base settings
+ * Many of these settings are from Bootstrap (https://github.com/twbs/bootstrap)
+ */
+
+:root {
+  /* Font settings for body */
+  var-font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-font-size-base: 16px;
+  var-line-height-base: 1.5;
+  /* Font settings for headings */
+  var-font-family-heading: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  var-line-height-heading: 1.2;
+  var-font-weight-heading: 500;
+  var-font-size-h1: 2.6em;
+  var-font-size-h2: 2.15em;
+  var-font-size-h3: 1.70em;
+  var-font-size-h4: 1.25em;
+  var-font-size-h5: 1em;
+  var-font-size-h6: 0.85em;
+  /* Color for <hr> element */
+  var-hr-color: #CCC;
+  var-button-padding: 10px 20px;
+  var-button-radius: 4px;
+  var-button-text-color: #FFF;
+  var-button-color-default: #0093B8;
+  var-button-color-hover: #0FC3F0;
+  var-button-color-active: #007A99;
+  var-button-color-disabled: #9FA3A5;
+  var-button-transition-time: 0.3s;
+}
+
+/* Basic layout styles */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  overflow: hidden;
+}
+
+/* Element definitions for HTML5 elements, taken from normalize.css */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* Fonts and other typographical settings */
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 20px 0 10px 0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 2.15em;
+}
+
+h3 {
+  font-size: 1.70em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.85em;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  height: 0;
+}
+
+/* Basic list styles */
+
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 40px;
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #FFF;
+  background-color: #0093B8;
+  transition: background-color 0.3s;
+}
+
+button:hover,
+button.hover {
+  background-color: #0FC3F0;
+}
+
+button:active,
+button.active {
+  background-color: #007A99;
+}
+
+button:disabled {
+  background-color: #9FA3A5;
+}
+
+:root {
+  var-menu-padding: 5px 15px;
+  var-menu-border: 1px solid #CCC;
+  var-menu-border-width: 1px;
+  var-menu-border-color: #CCC;
+  var-menu-background: #FFF;
+}
+
+.hut-menu,
+.hut-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+/* Clearfix */
+
+.hut-menu:before,
+.hut-menu:after {
+  display: block;
+  content: " ";
+}
+
+.hut-menu:after {
+  clear: both;
+}
+
+.hut-menu li {
+  display: block;
+  border: 1px solid #CCC;
+  white-space: nowrap;
+  background-color: #FFF;
+}
+
+.hut-menu a {
+  display: block;
+  padding: 5px 15px;
+}
+
+.hut-menu > li {
+  position: relative;
+  float: left;
+  border-right: none;
+}
+
+.hut-menu > li:last-child {
+  border-right: 1px solid #CCC;
+}
+
+.hut-menu ul {
+  display: none;
+  position: absolute;
+  left: -1px;
+  top: 100%;
+}
+
+.hut-menu ul.active {
+  display: block;
+}
+
+.hut-menu ul li {
+  border-top: none;
+}
+
+.hut-menu ul li:first-child {
+  border-top: 1px solid #CCC;
+}
+
+body {
+  max-width: 600px;
+  padding: 10px;
+  margin: 0 auto;
+  min-height: 100%;
+}
