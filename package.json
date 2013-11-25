@@ -1,0 +1,39 @@
+{
+  "name": "hut-menu",
+  "version": "0.0.0",
+  "description": "HTML UI Toolkit menu",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "hut-build test",
+    "start": "hut-build serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conradz/hut-menu.git"
+  },
+  "keywords": [
+    "html",
+    "menu",
+    "browser"
+  ],
+  "author": "Conrad Zimmerman <me@conradz.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/conradz/hut-menu/issues"
+  },
+  "devDependencies": {
+    "hut-build": "~0.2.1",
+    "chi-create": "0.0.2"
+  },
+  "dependencies": {
+    "hut-base": "0.0.3",
+    "chi-classes": "0.0.4",
+    "chi-events": "~0.1.1",
+    "emitter-component": "~1.1.0",
+    "mout": "~0.8.0",
+    "tape": "~2.3.0"
+  }
+}

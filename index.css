@@ -1,0 +1,61 @@
+@import "hut-base";
+@import "./variables";
+
+.hut-menu,
+.hut-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+
+/* Clearfix */
+.hut-menu:before,
+.hut-menu:after {
+    display: block;
+    content: " ";
+}
+.hut-menu:after {
+    clear: both;
+}
+
+.hut-menu li {
+    display: block;
+    border: var(menu-border);
+    white-space: nowrap;
+    background-color: var(menu-background);
+}
+
+.hut-menu a {
+    display: block;
+    padding: var(menu-padding);
+}
+
+.hut-menu > li {
+    position: relative;
+    float: left;
+    border-right: none;
+}
+
+.hut-menu > li:last-child {
+    border-right: var(menu-border);
+}
+
+.hut-menu ul {
+    display: none;
+    position: absolute;
+    left: -var(menu-border-width);
+    top: 100%;
+}
+
+.hut-menu ul.active {
+    display: block;
+}
+
+.hut-menu ul li {
+    border-top: none;
+}
+
+.hut-menu ul li:first-child {
+    border-top: var(menu-border);
+}
