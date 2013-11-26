@@ -52,7 +52,7 @@ test('open submenu', function(t, el) {
         sub = el.querySelector('.submenu-1'),
         triggered = false;
 
-    m.on('open', function(item) {
+    m.once('open', function(item) {
         t.equal(item, sub);
         triggered = true;
     });
@@ -70,7 +70,7 @@ test('close submenu', function(t, el) {
         triggered = false;
     m.open(sub);
 
-    m.on('close', function(item) {
+    m.once('close', function(item) {
         t.equal(item, sub);
         triggered = true;
     });
@@ -88,7 +88,7 @@ test('close existing menu when other menu is opened', function(t, el) {
         second = el.querySelector('.submenu-2'),
         closed = false;
 
-    m.on('close', function(item) {
+    m.once('close', function(item) {
         t.equal(item, first);
         closed = true;
     });
@@ -108,12 +108,12 @@ test('toggle submenu', function(t, el) {
         opened = false,
         closed = false;
 
-    m.on('open', function(item) {
+    m.once('open', function(item) {
         t.equal(item, sub);
         opened = true;
     });
 
-    m.on('close', function(item) {
+    m.once('close', function(item) {
         t.equal(item, sub);
         closed = true;
     });
