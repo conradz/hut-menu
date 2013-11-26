@@ -5,6 +5,8 @@
 [![Build Status](https://drone.io/github.com/conradz/hut-menu/status.png)](https://drone.io/github.com/conradz/hut-menu/latest)
 [![Dependency Status](https://gemnasium.com/conradz/hut-menu.png)](https://gemnasium.com/conradz/hut-menu)
 
+[![Selenium Test Status](https://saucelabs.com/browser-matrix/hut-menu.svg)](https://saucelabs.com/u/hut-menu)
+
 HTML UI Toolkit menu component - Create interactive menus
 
 Check out the [example](http://conradz.github.io/hut-menu/)!
