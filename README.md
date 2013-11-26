@@ -1,5 +1,10 @@
 # hut-menu
 
+[![NPM](https://nodei.co/npm/hut-menu.png?compact=true)](https://nodei.co/npm/hut-menu/)
+
+[![Build Status](https://drone.io/github.com/conradz/hut-menu/status.png)](https://drone.io/github.com/conradz/hut-menu/latest)
+[![Dependency Status](https://gemnasium.com/conradz/hut-menu.png)](https://gemnasium.com/conradz/hut-menu)
+
 HTML UI Toolkit menu component - Create interactive menus
 
 Check out the [example](http://conradz.github.io/hut-menu/)!
