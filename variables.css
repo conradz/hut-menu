@@ -1,7 +1,0 @@
-:root {
-    var-menu-padding: 5px 15px;
-    var-menu-border: var(menu-border-width) solid var(menu-border-color);
-    var-menu-border-width: 1px;
-    var-menu-border-color: #CCC;
-    var-menu-background: #FFF;
-}

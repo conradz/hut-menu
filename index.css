@@ -1,5 +1,4 @@
 @import "hut-base";
-@import "./variables";
 
 .hut-menu,
 .hut-menu ul {
@@ -10,25 +9,22 @@
 }
 
 /* Clearfix */
-.hut-menu:before,
 .hut-menu:after {
     display: block;
     content: " ";
-}
-.hut-menu:after {
     clear: both;
 }
 
 .hut-menu li {
     display: block;
-    border: var(menu-border);
+    border: 1px solid #999;
     white-space: nowrap;
-    background-color: var(menu-background);
+    background-color: #FFF;
 }
 
 .hut-menu a {
     display: block;
-    padding: var(menu-padding);
+    padding: 0.5rem 1rem;
 }
 
 .hut-menu > li {
@@ -38,13 +34,13 @@
 }
 
 .hut-menu > li:last-child {
-    border-right: var(menu-border);
+    border-right: 1px solid #999;
 }
 
 .hut-menu ul {
     display: none;
     position: absolute;
-    left: -var(menu-border-width);
+    left: -1px;
     top: 100%;
 }
 
@@ -57,5 +53,5 @@
 }
 
 .hut-menu ul li:first-child {
-    border-top: var(menu-border);
+    border-top: 1px solid #999;
 }
