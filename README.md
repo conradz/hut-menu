@@ -13,7 +13,7 @@ a minimum amount of styling so that you can customize it to your needs. See the
 
 ## usage
 
- 1. Install using [npm](https://npmjs.org) - `npm install --save hut-modal`
+ 1. Install using [npm](https://npmjs.org) - `npm install --save hut-menu`
  2. Import styling using [rework-npm](https://github.com/conradz/rework-npm) -
     `@import "hut-menu";`
  3. Load JS using [browserify](https://github.com/substack/node-browserify) -
