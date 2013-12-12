@@ -26,12 +26,12 @@
     "url": "https://github.com/conradz/hut-menu/issues"
   },
   "devDependencies": {
-    "hut-build": "~0.2.1",
-    "chi-create": "0.0.2"
+    "hut-build": "~0.3.2",
+    "chi-create": "~0.1.0"
   },
   "dependencies": {
-    "hut-base": "0.0.3",
-    "chi-classes": "0.0.4",
+    "hut-base": "~0.2.0",
+    "chi-classes": "~0.1.0",
     "chi-events": "~0.1.1",
     "emitter-component": "~1.1.0",
     "mout": "~0.8.0",
