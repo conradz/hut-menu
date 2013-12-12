@@ -1,17 +1,26 @@
 # hut-menu
 
-[![NPM](https://nodei.co/npm/hut-menu.png?compact=true)](https://nodei.co/npm/hut-menu/)
-
 [![Build Status](https://drone.io/github.com/conradz/hut-menu/status.png)](https://drone.io/github.com/conradz/hut-menu/latest)
-[![Dependency Status](https://gemnasium.com/conradz/hut-menu.png)](https://gemnasium.com/conradz/hut-menu)
+[![Dependency Status](https://david-dm.org/conradz/hut-menu.png)](https://david-dm.org/conradz/hut-menu)
 
 [![Selenium Test Status](https://saucelabs.com/browser-matrix/hut-menu.svg)](https://saucelabs.com/u/hut-menu)
 
-HTML UI Toolkit menu component - Create interactive menus
+## intro
 
-Check out the [example](http://conradz.github.io/hut-menu/)!
+A simple HTML menu module that creates interactive dropdown menus. It contains
+a minimum amount of styling so that you can customize it to your needs. See the
+[example](http://conradz.github.io/hut-menu/) to see it in action.
 
-## Example
+## usage
+
+ 1. Install using [npm](https://npmjs.org) - `npm install --save hut-modal`
+ 2. Import styling using [rework-npm](https://github.com/conradz/rework-npm) -
+    `@import "hut-menu";`
+ 3. Load JS using [browserify](https://github.com/substack/node-browserify) -
+    `var menu = require('hut-menu');`
+
+
+## code
 
 ```html
 <ul class="hut-tabs" id="menu">
@@ -39,7 +48,7 @@ m.open(document.querySelector('#docs-menu'));
 m.close();
 ```
 
-## JS Reference
+## reference
 
 ### `menu(element)`
 
@@ -59,9 +68,3 @@ also close any currently open submenu.
 ### `#close()`
 
 Closes any currenly open submenu.
-
-## Styling
-
-To change the styling, change the variables defined in the `variables.css`
-file, or override the styles with your own.
-
